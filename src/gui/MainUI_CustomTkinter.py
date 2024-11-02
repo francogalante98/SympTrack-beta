@@ -187,15 +187,3 @@ class App(ctk.CTk):
             self.ver_informes.insert(ctk.END, "\nMedicación:\n")
             for medicamento in medicacion:
                 self.ver_informes.insert(ctk.END, f"{str(medicamento)}\n")
-
-
-
-
-
-
-
-
-
-#FALLAS A MIRAR EN CLASE
-#FUNCIONALIDAD BOTONES AL CREAR PACIENTE Y AGREGAR REGISTRO
-#ERROR DE APERTURA AL TENER COMMAND EL BOTON DE VER INFORMES
